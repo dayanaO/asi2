@@ -286,13 +286,7 @@
                       <input type="date" class="form-control" id="fechaRegistro" name="fechaRegistro" placeholder="" value="" required>
                         </div>
 
-                        <div class="col-md-6 mb-3">
-                      <label for="id_medico"><font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Medico </font>
-                      </font></label>
-                      <input type="text" class="form-control" id="id_medico" name="id_medico" placeholder="" value="" required>
-                        </div>
-                  
+                                   
                         <h5 class="m-0 font-weight-bold text-primary">
                                       
                         <div class="col-md-6 mb-3">

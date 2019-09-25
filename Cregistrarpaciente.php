@@ -18,7 +18,7 @@ $responsablecontacto = $_POST['responsablecontacto'];
 $alergias = $_POST['alergias'];
 $medicamentos = $_POST['medicamentos'];
 $fechaRegistro= $_POST['fechaRegistro'];
-$id_medico = $_POST['id_medico'];
+
 
 
 
@@ -26,7 +26,7 @@ $consulta= "INSERT INTO pacientes (nombres , apellidos, fecha_nacimiento,genero,
 telefono,dui,nit, responsableNombre, responsablecontacto,alergias,medicamentos,fechaRegistro,id_medico) 
 VALUES ('".$nombres."','".$apellidos."','".$fecha_nacimiento."', '".$genero."', '".$direccion."', '".$correo."',
 '".$telefono."', '".$dui."', '".$nit."', '".$responsableNombre."','".$responsablecontacto."','".$alergias."',
-'".$medicamentos."','".$fechaRegistro."','".$id_medico."')"; 
+'".$medicamentos."','".$fechaRegistro."')"; 
 
 
 

@@ -1,4 +1,4 @@
--- phpMyAdmin SQL Dump
+﻿-- phpMyAdmin SQL Dump
 -- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
@@ -137,8 +137,7 @@ CREATE TABLE `pacientes` (
   `nit` varchar(17) NOT NULL,
   `alergia` varchar(50) DEFAULT NULL,
   `medicamentos` varchar(50) DEFAULT NULL,
-  `fechaRegistro` date NOT NULL,
-  `id_medico` int(4) NOT NULL
+  `fechaRegistro` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -205,8 +204,7 @@ ALTER TABLE `medicos`
 ALTER TABLE `pacientes`
   ADD PRIMARY KEY (`id_paciente`),
   ADD KEY `id_direccion` (`id_direccion`),
-  ADD KEY `id_responsable` (`id_responsable`),
-  ADD KEY `id_medico` (`id_medico`);
+  ADD KEY `id_responsable` (`id_responsable`);
 
 --
 -- Indices de la tabla `perfiles`
